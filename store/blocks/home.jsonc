@@ -1,0 +1,66 @@
+{
+  "store.home": {
+    "blocks": [
+      "store.custom#landing" /*Pesquisa */
+    ]
+  },
+  /* Começo da pesquisa */
+  "store.custom#landing": {
+    "blocks": [
+      "slider-layout#home", //menu em carousel
+      "slider-layout#text-test",
+      "search-result-layout.customQuery"
+    ]
+  },
+  /*Começo do Carousel banner */
+  "slider-layout#text-test": {
+    "props": {
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      },
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    },
+    "children": [
+      "image#example#1",
+      "image#example#2"
+    ]
+  },
+  "image#example#1": {
+    "props": {
+      "src": "assets/banner1.jpg",
+      "width": "70%",
+      "height": 250
+    }
+  },
+  "image#example#2": {
+    "props": {
+      "src": "assets/banner2.jpg",
+      "width": "70%",
+      "height": 250
+    }
+  },
+  /*Fim do Carousel banner */
+  "search-result-layout.customQuery": {
+    "blocks": [
+      "search-result-layout.desktop"
+    ],
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByBestDiscountDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 4,
+        "queryField": "UpMedal", //coloque aqui o nome que deseja de busca
+        "mapField": "ft"
+      }
+    }
+  }
+  /* Fim da busca */
+}

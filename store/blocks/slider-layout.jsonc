@@ -1,0 +1,127 @@
+{
+    "slider-layout#home": {
+        "children": [ 
+            "rich-text#1",  
+            "rich-text#2", 
+            "rich-text#3", 
+            "rich-text#4", 
+            "rich-text#5", 
+            "rich-text#6", 
+            "rich-text#7",    
+            "rich-text#8", 
+            "rich-text#9", 
+            "rich-text#10"
+        ],
+        "props": {
+          "autoplay": {
+            "timeout": 7000,
+            "stopOnHover": true
+          },
+          "fullWidth": false,
+          "showPaginationDots": "never",
+          "showNavigationArrows": "never"
+        }
+      },
+
+      "rich-text#1": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": " [**Promoção**](https://help.vtex.com) ",
+          "textColor": "#fff",
+          "font": "Montserrat",
+          "blockClass": "promo-message"
+        }
+      },
+
+      "rich-text#2": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": " [**Corinthians**](https://help.vtex.com) ",
+          "textColor": "#fff",
+          "font": "Montserrat",
+          "blockClass": "promo-message"
+        }
+      },
+      "rich-text#3": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": " [**Palmeiras**](https://help.vtex.com) ",
+          "textColor": "#fff",
+          "font": "Montserrat",
+          "blockClass": "promo-message"
+        }
+      },
+      "rich-text#4": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": " [**Signos**](https://help.vtex.com) ",
+          "textColor": "#fff",
+          "font": "Montserrat",
+          "blockClass": "promo-message"
+        }
+      },
+      "rich-text#5": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": " [**Divertidos**](https://help.vtex.com) ",
+          "textColor": "#fff",
+          "font": "Montserrat",
+          "blockClass": "promo-message"
+        }
+      },
+      "rich-text#6": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": " [**7 Maravilhas**](https://help.vtex.com) ",
+          "textColor": "#fff",
+          "font": "Montserrat",
+          "blockClass": "promo-message"
+        }
+      },
+      "rich-text#7": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": " [**Guerreiros**](https://help.vtex.com) ",
+          "textColor": "#fff",
+          "font": "Montserrat",
+          "blockClass": "promo-message"
+        }
+      },
+      "rich-text#8": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": " [**Álbum 1**](https://help.vtex.com) ",
+          "textColor": "#fff",
+          "font": "Montserrat",
+          "blockClass": "promo-message"
+        }
+      },
+      "rich-text#9": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": " [**Álbum 2**](https://help.vtex.com) ",
+          "textColor": "#fff",
+          "font": "Montserrat",
+          "blockClass": "promo-message"
+        }
+      },
+      "rich-text#10": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": " [**Álbum 3**](https://help.vtex.com) ",
+          "textColor": "#fff",
+          "font": "Montserrat",
+          "blockClass": "promo-message"
+        }
+      }
+}
