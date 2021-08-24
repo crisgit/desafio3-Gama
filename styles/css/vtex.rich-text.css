@@ -1,0 +1,10 @@
+.link {
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.75;
+    color: #fff;
+    text-decoration: unset;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+  }

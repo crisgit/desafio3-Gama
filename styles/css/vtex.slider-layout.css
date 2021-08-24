@@ -1,0 +1,12 @@
+.slideChildrenContainer--carousel{
+   background-color: #303030;
+   padding-bottom: 40px;
+   padding-top: 20px;
+ }
+ 
+ .sliderArrows--carousel{
+   color: #fff;
+   transform: translate(0px, 150px);
+   padding: 6px 200px;
+ }
+ 

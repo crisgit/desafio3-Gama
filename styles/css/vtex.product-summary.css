@@ -1,0 +1,18 @@
+.productBrand {
+    color: white;
+    text-transform: uppercase;
+}
+.containerNormal {
+    max-width: 250px;
+    text-align: center;
+    justify-content: center;
+    background-color: #424242;
+    box-shadow:2px 1px 2px #292929;
+}
+.productName {
+    color: white;
+}
+.currencyContainer {
+    font-size: 30px;
+}
+
